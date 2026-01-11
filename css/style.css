@@ -423,7 +423,7 @@ h1, h2, h3, h4, h5, h6 {
     max-width: var(--text-max-width);
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    text-align: left;
 }
 
 /* Tilted Image Carousel */
@@ -546,6 +546,9 @@ h1, h2, h3, h4, h5, h6 {
 /* Awards Section */
 .awards-section {
     margin-bottom: var(--spacing-3xl);
+    max-width: var(--text-max-width);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .award-box {
@@ -585,6 +588,9 @@ h1, h2, h3, h4, h5, h6 {
 /* Experience Section */
 .experience-section {
     margin-bottom: var(--spacing-3xl);
+    max-width: var(--text-max-width);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .experience-list {
@@ -624,6 +630,9 @@ h1, h2, h3, h4, h5, h6 {
 /* FAQs Section */
 .faqs-section {
     margin-bottom: var(--spacing-3xl);
+    max-width: var(--text-max-width);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .faqs-list {
