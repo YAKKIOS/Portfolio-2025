@@ -19,7 +19,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #000000;
-    background-color: #F5F5F0;
+    background-color: #FFFFFF;
     overflow-x: hidden;
 }
 
@@ -47,7 +47,7 @@ button {
 
 :root {
     /* Colors */
-    --color-bg: #F5F5F0;
+    --color-bg: #FFFFFF;
     --color-text: #000000;
     --color-accent: #FFD4C8;
     --color-white: #FFFFFF;
@@ -57,6 +57,7 @@ button {
     --grid-column-width: 80px;
     --grid-gutter: 16px;
     --grid-max-width: 944px; /* 12 * 80px + 11 * 16px */
+    --text-max-width: 432px;
 
     /* Typography */
     --font-body: 'Inter', sans-serif;
@@ -85,7 +86,7 @@ button {
 
     /* Transitions */
     --transition-standard: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-elastic: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    --transition-elastic: 0.35s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 /* ================================
@@ -110,6 +111,7 @@ h1, h2, h3, h4, h5, h6 {
 .page-title {
     font-size: var(--font-size-case-study-lg);
     margin-bottom: var(--spacing-2xl);
+    max-width: var(--text-max-width);
 }
 
 .section-title {
@@ -348,12 +350,21 @@ h1, h2, h3, h4, h5, h6 {
     font-size: var(--font-size-case-study-sm);
     font-weight: 600;
     margin-bottom: var(--spacing-xs);
+    max-width: var(--text-max-width);
 }
 
 .project-description {
     font-size: var(--font-size-body);
     line-height: var(--line-height-body);
     color: #666;
+    max-width: var(--text-max-width);
+}
+
+.project-meta {
+    font-size: 14px;
+    color: #999;
+    margin-top: var(--spacing-xs);
+    max-width: var(--text-max-width);
 }
 
 /* Writing Section */
@@ -404,11 +415,13 @@ h1, h2, h3, h4, h5, h6 {
     font-size: var(--font-size-body);
     font-weight: 600;
     margin-bottom: var(--spacing-xs);
+    max-width: var(--text-max-width);
 }
 
 .writing-meta {
     font-size: 14px;
     color: #666;
+    max-width: var(--text-max-width);
 }
 
 /* Homepage Footer */
@@ -432,6 +445,8 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 14px;
     line-height: 1.4;
     color: #666;
+    max-width: var(--text-max-width);
+    margin: 0 auto;
 }
 
 /* ================================
@@ -467,6 +482,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: var(--font-size-body);
     line-height: var(--line-height-body);
     margin-bottom: var(--spacing-md);
+    max-width: var(--text-max-width);
 }
 
 /* Tilted Image Carousel */
@@ -608,12 +624,14 @@ h1, h2, h3, h4, h5, h6 {
     font-size: var(--font-size-heading);
     font-weight: 600;
     margin-bottom: var(--spacing-xs);
+    max-width: var(--text-max-width);
 }
 
 .award-subtitle {
     font-size: 14px;
     color: #666;
     margin-bottom: var(--spacing-md);
+    max-width: var(--text-max-width);
 }
 
 .award-link {
@@ -646,17 +664,20 @@ h1, h2, h3, h4, h5, h6 {
     font-size: var(--font-size-body);
     font-weight: 600;
     margin-bottom: 4px;
+    max-width: var(--text-max-width);
 }
 
 .experience-company {
     font-size: var(--font-size-body);
     color: #666;
     margin-bottom: 4px;
+    max-width: var(--text-max-width);
 }
 
 .experience-date {
     font-size: 14px;
     color: #999;
+    max-width: var(--text-max-width);
 }
 
 /* FAQs Section */
@@ -716,6 +737,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: var(--font-size-body);
     line-height: var(--line-height-body);
     color: #666;
+    max-width: var(--text-max-width);
 }
 
 /* ================================
