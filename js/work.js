@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 
 async function loadAllProjects() {
     try {
-        const response = await fetch('/data/projects.json');
+        const response = await fetch('../data/projects.json');
         const data = await response.json();
 
         const container = document.getElementById('projectsList');

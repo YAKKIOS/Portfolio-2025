@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 // Load experience
 async function loadExperience() {
     try {
-        const response = await fetch('/data/content.json');
+        const response = await fetch('../data/content.json');
         const data = await response.json();
 
         const container = document.getElementById('experienceList');
@@ -28,7 +28,7 @@ async function loadExperience() {
 // Load FAQs
 async function loadFAQs() {
     try {
-        const response = await fetch('/data/content.json');
+        const response = await fetch('../data/content.json');
         const data = await response.json();
 
         const container = document.getElementById('faqsList');

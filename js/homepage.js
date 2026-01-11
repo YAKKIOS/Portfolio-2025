@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 // Load featured projects
 async function loadFeaturedProjects() {
     try {
-        const response = await fetch('/data/projects.json');
+        const response = await fetch('data/projects.json');
         const data = await response.json();
         const featuredProjects = data.projects.filter(p => p.featured);
 
@@ -33,7 +33,7 @@ async function loadFeaturedProjects() {
 // Load writing items
 async function loadWriting() {
     try {
-        const response = await fetch('/data/content.json');
+        const response = await fetch('data/content.json');
         const data = await response.json();
 
         const container = document.getElementById('writingList');
