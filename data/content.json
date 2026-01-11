@@ -1,0 +1,76 @@
+{
+  "experience": [
+    {
+      "role": "Senior Product Designer",
+      "company": "Enigma Interactive",
+      "dates": "2025-current"
+    },
+    {
+      "role": "Product Designer",
+      "company": "Appointedd",
+      "dates": "2025"
+    },
+    {
+      "role": "UX Designer",
+      "company": "Oak Engage",
+      "dates": "2020-2024"
+    },
+    {
+      "role": "Digital Designer",
+      "company": "Komodo Digital",
+      "dates": "2017-2019"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What's my favourite cocktail?",
+      "answer": "An Old Fashioned, made with bourbon, sugar, bitters, and an orange peel. Simple, classic, and timeless."
+    },
+    {
+      "question": "What design tools do I use?",
+      "answer": "I primarily use Figma for UI/UX design, with Photoshop and Illustrator for specific tasks. I also prototype in code when needed."
+    },
+    {
+      "question": "What's my design philosophy?",
+      "answer": "Good sense and good design. I believe in creating solutions that are both beautiful and functional, always putting the user first."
+    },
+    {
+      "question": "How do I approach new projects?",
+      "answer": "I start by understanding the problem deeply, research thoroughly, collaborate closely with stakeholders, and iterate based on feedback and data."
+    },
+    {
+      "question": "What's my favourite typeface?",
+      "answer": "Inter for its versatility and readability across digital interfaces. But I also have a soft spot for classic serif faces like Freight Text."
+    }
+  ],
+  "writing": [
+    {
+      "title": "Why side projects are BS#1",
+      "year": "2025",
+      "url": "#",
+      "color": "#90EE90",
+      "thumbnail": ""
+    },
+    {
+      "title": "Embracing excellent UX to transform workflow",
+      "year": "2025",
+      "url": "#",
+      "color": "#90EE90",
+      "thumbnail": ""
+    },
+    {
+      "title": "5 common web design mistakes beginners should avoid",
+      "year": "2025",
+      "url": "#",
+      "color": "#90EE90",
+      "thumbnail": ""
+    }
+  ],
+  "intro": {
+    "paragraphs": [
+      "I currently work as a digital designer in product and user experience design. I am a Senior Product Designer and UX. I was born on on Dartmoor in Devon, a place I called home for 15 years.",
+      "I've recently I have worked alongside fellow UX designers, they were our UX team leaders. I also learned a lot from our previous digital leader who has since retired, and still catch up with them every so often as we live a mere walk away from each other.",
+      "I've still been working."
+    ]
+  }
+}

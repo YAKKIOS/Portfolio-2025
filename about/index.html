@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Your Name</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Pinyon+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <main class="about-page">
+        <div class="container">
+            <!-- Intro Text -->
+            <section class="intro-section">
+                <p class="intro-text" id="introText">
+                    I currently work as a digital designer in product and user experience design. I am a Senior Product Designer and UX. I was born on on Dartmoor in Devon, a place I called home for 15 years.
+                </p>
+                <p class="intro-text">
+                    I've recently I have worked alongside fellow UX designers, they were our UX team leaders. I also learned a lot from our previous digital leader who has since retired, and still catch up with them every so often as we live a mere walk away from each other.
+                </p>
+                <p class="intro-text">
+                    I've still been working.
+                </p>
+            </section>
+
+            <!-- Tilted Image Carousel -->
+            <section class="image-carousel-section">
+                <div class="carousel-container">
+                    <div class="tilted-images" id="tiltedImages">
+                        <div class="tilted-image" data-index="0">
+                            <img src="/images/carousel/image-1.jpg" alt="Personal photo 1" loading="lazy">
+                        </div>
+                        <div class="tilted-image" data-index="1">
+                            <img src="/images/carousel/image-2.jpg" alt="Personal photo 2" loading="lazy">
+                        </div>
+                        <div class="tilted-image" data-index="2">
+                            <img src="/images/carousel/image-3.jpg" alt="Personal photo 3" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="carousel-controls">
+                        <button class="carousel-prev" id="carouselPrev" aria-label="Previous images">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <button class="carousel-next" id="carouselNext" aria-label="Next images">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Awards -->
+            <section class="awards-section">
+                <h2 class="section-title">Awards</h2>
+                <div class="award-box">
+                    <span class="award-icon">🏆</span>
+                    <p class="award-title">Best Sports Imagery of 2021</p>
+                    <p class="award-subtitle">Published in 'design' created by bla.bla</p>
+                    <a href="#" class="award-link">View award →</a>
+                </div>
+            </section>
+
+            <!-- Experience -->
+            <section class="experience-section">
+                <h2 class="section-title">Experience</h2>
+                <div class="experience-list" id="experienceList">
+                    <!-- Loaded from JSON -->
+                </div>
+            </section>
+
+            <!-- FAQs -->
+            <section class="faqs-section">
+                <h2 class="section-title">FAQs</h2>
+                <div class="faqs-list" id="faqsList">
+                    <!-- Loaded from JSON -->
+                </div>
+            </section>
+
+            <footer class="page-footer">
+                <p class="script-text">Good sense and good design</p>
+                <div class="footer-image">
+                    <img src="/images/footer-image.jpg" alt="Born in Kent, Newcastle, UK NE330QAAT" loading="lazy">
+                    <p class="footer-caption">Born in Kent<br>Newcastle, UK NE330QAAT</p>
+                </div>
+            </footer>
+        </div>
+    </main>
+
+    <!-- Bottom Navigation -->
+    <nav class="bottom-nav" id="bottomNav">
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+            <span class="plus-icon"></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="/work">Work</a></li>
+            <li><a href="/about">About</a></li>
+        </ul>
+    </nav>
+
+    <script src="/js/navbar.js"></script>
+    <script src="/js/image-carousel.js"></script>
+    <script src="/js/about.js"></script>
+</body>
+</html>

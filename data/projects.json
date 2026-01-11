@@ -1,0 +1,54 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "A fun way for Client Name staff to learn product look-up codes for loose produce",
+      "description": "Brief description of the project and what it accomplished. This can be a few sentences describing the key features and outcomes.",
+      "role": "Senior Product Designer",
+      "year": "2024",
+      "image": "https://via.placeholder.com/800x500/E5E5E0/666666?text=Project+1",
+      "featured": true,
+      "link": "#"
+    },
+    {
+      "id": "project-2",
+      "title": "Partnering to build a new design system and navigation pattern for Client Name",
+      "description": "Brief description of the project and what it accomplished. This can be a few sentences describing the key features and outcomes.",
+      "role": "Product Designer",
+      "year": "2023",
+      "image": "https://via.placeholder.com/800x500/E5E5E0/666666?text=Project+2",
+      "featured": true,
+      "link": "#"
+    },
+    {
+      "id": "project-3",
+      "title": "Building a comprehensive component library for Client Name",
+      "description": "Brief description of the project and what it accomplished. This can be a few sentences describing the key features and outcomes.",
+      "role": "UX Designer",
+      "year": "2023",
+      "image": "https://via.placeholder.com/800x500/E5E5E0/666666?text=Project+3",
+      "featured": false,
+      "link": "#"
+    },
+    {
+      "id": "project-4",
+      "title": "Redesigning the user experience for Client Name mobile app",
+      "description": "Brief description of the project and what it accomplished. This can be a few sentences describing the key features and outcomes.",
+      "role": "Lead Designer",
+      "year": "2022",
+      "image": "https://via.placeholder.com/800x500/E5E5E0/666666?text=Project+4",
+      "featured": false,
+      "link": "#"
+    },
+    {
+      "id": "project-5",
+      "title": "Creating a new brand identity and design system for Client Name",
+      "description": "Brief description of the project and what it accomplished. This can be a few sentences describing the key features and outcomes.",
+      "role": "Brand Designer",
+      "year": "2022",
+      "image": "https://via.placeholder.com/800x500/E5E5E0/666666?text=Project+5",
+      "featured": false,
+      "link": "#"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Pinyon+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <main class="homepage">
+        <!-- Video Section -->
+        <section class="video-section">
+            <div class="video-container" id="videoContainer">
+                <video id="showreel" autoplay muted loop playsinline>
+                    <source src="/videos/showreel.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+
+        <!-- Content Section (appears after video expands) -->
+        <div class="content-wrapper" id="contentWrapper">
+            <!-- Selected Work -->
+            <section class="work-preview">
+                <h2 class="section-title">Selected Work</h2>
+                <div class="projects-grid" id="featuredProjects">
+                    <!-- Projects loaded from JSON -->
+                </div>
+            </section>
+
+            <!-- Thoughts and Writing -->
+            <section class="writing-section">
+                <h2 class="section-title">Thoughts and writing</h2>
+                <div class="writing-grid" id="writingList">
+                    <!-- Writing items loaded from JSON -->
+                </div>
+            </section>
+
+            <footer class="homepage-footer">
+                <p class="script-text">Good sense and good design</p>
+                <div class="footer-image">
+                    <img src="/images/footer-image.jpg" alt="Born in Kent, Newcastle, UK NE330QAAT" loading="lazy">
+                    <p class="footer-caption">Born in Kent<br>Newcastle, UK NE330QAAT</p>
+                </div>
+            </footer>
+        </div>
+    </main>
+
+    <!-- Bottom Navigation -->
+    <nav class="bottom-nav" id="bottomNav">
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+            <span class="plus-icon"></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="/work">Work</a></li>
+            <li><a href="/about">About</a></li>
+        </ul>
+    </nav>
+
+    <script src="/js/navbar.js"></script>
+    <script src="/js/video-animation.js"></script>
+    <script src="/js/homepage.js"></script>
+</body>
+</html>
